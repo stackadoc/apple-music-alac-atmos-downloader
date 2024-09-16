@@ -1790,7 +1790,11 @@ func main() {
 			dl_select = true
 		} else if strings.Contains(arg, "--all-album") {
 			artist_select = true
-		} else {
+		} else if strings.HasPrefix(arg, "--outputdir=") {
+            parts := strings.Split(arg, "=")
+            config.AlacSaveFolder = parts[1]
+            config.AtmosSaveFolder = parts[1]
+        } else {
 			dlArgs = append(dlArgs, arg)
 		}
 	}
