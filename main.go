@@ -1687,7 +1687,7 @@ func rip(albumId string, token string, storefront string, userToken string) erro
 			}
 
 			index := trackNum - 1
-			if dl_atmos {
+			if true {
 				tags = []string{
 					"tool=",
 					fmt.Sprintf("lyrics=%s", lrc),

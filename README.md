@@ -2,6 +2,7 @@
 
 1. Remove convert `ec3` to `m4a`.
 2. Save Apple Music metadata to txt file, beside `ec3` file.
+3. Save Apple Music Metadata even if it's not atmos
 
 ### ！！必须先安装[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)，并确认[MP4Box](https://gpac.io/downloads/gpac-nightly-builds/)已正确添加到环境变量
 
